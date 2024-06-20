@@ -12,7 +12,7 @@ st.caption('This web app will be a tool to calculate the theoretical price of \
            This will increase understanding of the factors that influence option prices. \
            This web app has been created as a passion project, to further my understanding of the foundations and implementation of financial models while increasing my coding proficiency.\
            The provided information should _not_ be taken as a substitute for professional advice.')
-tab1, tab2, tab3 = st.tabs(["Black-Scholes Model", "Bionomial Pricing Model", "Trinomial Pricing Model"])
+tab1, tab2 = st.tabs(["Black-Scholes Model", "Geometric Brownian Motion"])
 with tab1:
     st.write("""
              The Black-Scholes Model (BSM) estimates the theoretical values of derivatives and requires the following input variables:
@@ -166,8 +166,6 @@ with tab2:
     )
     st.pyplot(plt)
 
-with tab3:
-    st.subheader("In Progress!")
 
 
 st.caption("By Ananya Salian")
