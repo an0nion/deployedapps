@@ -5,5 +5,5 @@ streamlit==1.22.0
 yfinance
 datetime
 prophet
-scipy.stats
+scipy
 matplotlib
