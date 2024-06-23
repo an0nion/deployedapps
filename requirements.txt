@@ -8,3 +8,4 @@ prophet
 scipy
 matplotlib
 folium
+streamlit_folium
