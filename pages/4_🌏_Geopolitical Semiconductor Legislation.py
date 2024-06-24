@@ -7,7 +7,7 @@ st.caption("Currently in progress!")
 st.caption("Expected to be up & running: **_10th July, 2024_**")
 
 st.caption("Most legislation implemented aims to reduce supply chain disruptions\
-           ,reduce dependence on foreign suppliers, and to increase\
+           , reduce dependence on foreign suppliers, and to increase\
            a regions share of global semiconductor production")
 
 st.write("_**US:**_")
@@ -22,7 +22,7 @@ st.write("""
 st.write("_**China:**_")
 st.write("""
         _China Integrated Circuit Industry Investment Fund (ICF)_: Consisting of 3 phases, raising over US$77B over the course of 2014-2039 to reduce dependence on external manufacturers and achieve self-sufficiency.
-        - Chinese firms such as SMIC, Hua Hong Semiconductor, and YMTC will see significant profits due to increased government investments. However, for firms that operate/trade outside of China, as well as foreign firms that trade with China, there may be supply or operational issues.    
+        - Chinese firms such as SMIC, Hua Hong Semiconductor, and YMTC will see significant profits due to increased government investments. However, for foreign firms that operate or trade with China, there may be operation or supply chain issues as a result of China's increased focus on domestic production and reducing dependence on foreign partners.    
           \n  \n 
          """)
 
