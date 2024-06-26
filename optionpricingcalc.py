@@ -81,7 +81,7 @@ with tab2:
          but with a general trend (referred to as drift) and random fluctuations\
           (referred to as volatility). Furthermore, the GBM operates by\
           continuously calculating very small changes in stock prices of \
-         very short time intervals, allowing for a more precise and\
+         very short time intervals (hence, continuous-time process), allowing for a more precise and\
           flexible representation of price dynamics of our selected\
           stock or asset")
     st.write("""
