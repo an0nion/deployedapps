@@ -9,6 +9,14 @@ st.caption("Expected to be up & running: **_10th July, 2024_**")
 st.caption("Most legislation implemented aims to reduce supply chain disruptions\
            , reduce dependence on foreign suppliers, and to increase\
            a regions share of global semiconductor production")
+st.write("_**Taiwan**_")
+st.write("""
+           _Industrial Innovation Act_:Chipmakers will be able to file for tax credits of 5% of their annual costs for purchasing equipment for advanced nodes (usually the costliest part of chip manufacturing) and a 25% tax bread on R&D expenses
+            - Taiwanese Ministery of Economic Affairs states that this will encourage higher domestic investment homegrown tech businessses like TSMC, MediaTek, GlobalWafers, UMC, Phison,  especially for R&D
+            - Aims to maintain Taiwan's competitive edge in the semiconductor industry, currently holding 68% of the global semiconductor market, with TSMC alone with a market share of 53%.
+            \n\n
+           """)
+
 
 st.write("_**US:**_")
 st.write("""
