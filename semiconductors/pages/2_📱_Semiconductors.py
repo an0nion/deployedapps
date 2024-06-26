@@ -3,10 +3,6 @@ import folium
 from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 
-st.set_page_config(
-    page_icon="📱"
-)
-
 
 st.header("A Brief Analysis into the Semiconductor Industry")
 st.caption("_By :blue[Ananya Salian]_")
