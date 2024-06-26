@@ -99,6 +99,8 @@ with tab2:
             on this web app, at the _Black-Scholes Model_ tab.
             - _Portfolio Optimsation_: The GBM is used to model the behaviour of diversified investment portfolios\
             over time. 
+            """)
+    st.write("""
             Non-financial uses:
             - _Biostatistics and Population Modelling_: The GBM can also be used to model population growth, disease spread, and other biological diffusion processes
             - _Physics and Brownian Motion_: GBM is particularly applicable in the study of Brownian motion\
