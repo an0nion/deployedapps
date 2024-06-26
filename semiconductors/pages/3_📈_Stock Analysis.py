@@ -4,10 +4,6 @@ import yfinance as yf
 st.header("My Fav SC Companies")
 st.caption("_by :blue[Ananya Salian]_")
 
-st.set_page_config(
-    page_icon="📈"
-)
-
 st.caption("This tab is currently in progress. Still currently choosing between an API-run and static page!")
 st.caption("However, for the time-being, I will be making this static, and updating\
            info as I go, to personally stay on track of the performance of these stocks.")
