@@ -7,7 +7,7 @@ st.caption("_by :blue[Ananya Salian]_")
 st.caption("This tab is currently in progress. Still currently choosing between an API-run and static page!")
 st.caption("However, for the time-being, I will be making this static, and updating\
            info as I go, to personally stay on track of the performance of these stocks.")
-st.caption("_Expected to be up & running: **27th June, 2024**_")
+st.caption("_Expected to be up & running: **29th June, 2024**_")
 t = yf.Ticker("TSM")
 n = yf.Ticker("NVDA")
 q = yf.Ticker("QCOM")
