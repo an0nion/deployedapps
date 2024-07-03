@@ -4,7 +4,7 @@ from streamlit_folium import folium_static
 from folium.plugins import MarkerCluster
 
 
-st.header("A Brief Analysis into the Semiconductor Industry")
+st.title("A Brief Analysis into the Semiconductor Industry")
 st.caption("_By :blue[Ananya Salian]_")
 
 st.write("This is a small passion project I have made regarding the Semiconductor Industry following recent events and news.\
