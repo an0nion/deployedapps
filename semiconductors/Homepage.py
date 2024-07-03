@@ -12,7 +12,8 @@ st.caption("_By :blue[Ananya Salian]_")
 st.subheader("Please ensure the menu on the right-hand side of your screen is visible!")
 st.write("This is a small passion project I have made regarding the Semiconductor Industry following recent events and news.\
          The aim of this project is to consolidate knowledge regarding this growing field, whilst building on my coding and financial\
-         understanding. This project will also obtain Financial Data of a few Semiconductor Companies, chosen due to their market share and/or my own\
+         understanding. This project will also conduct an analysis into a publicly traded semiconductor company of my choice,\
+         chosen due to their market share and/or my own\
          personal interests.")
 
 st.write("This project is currently _ongoing_! I have placed this on a web app\
