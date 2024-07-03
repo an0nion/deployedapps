@@ -14,9 +14,12 @@ i = yf.Ticker("INTC")
 b = yf.Ticker("AVGO")
 a = yf.Ticker("AMD")
 
+st.caption("The information currently provided consists of data obtained from the YFinance API, and though highly accurate, has a delay of up to 15 minutes from time of web-app reload. ")
+
+
 st.caption("Current shortlisted stocks:")
 
-st.caption("The information currently provided consists of data obtained from the YFinance API, and though highly accurate, has a delay of up to 15 minutes from time of web-app reload. ")
+
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([f"{t.info['underlyingSymbol']}", f"{n.info['underlyingSymbol']}", f"{i.info['underlyingSymbol']}", f"{q.info['underlyingSymbol']}", f"{b.info['underlyingSymbol']}", f"{a.info['underlyingSymbol']}"])
 
 
