@@ -18,6 +18,8 @@ st.write("This is a small passion project I have made regarding the Semiconducto
 st.write("This project is currently _ongoing_! I have placed this on a web app\
           so I can easily refer to it and add information from multiple devices.\
          If you see any errors or areas I can improve on, dont hesitate to send me a message via\
-         my webpage, where my contacts are located!")
+         my website, where my contacts are located!")
+
+st.link_button("Go to website", "https://ananyadsal.webflow.io/")
 
 
