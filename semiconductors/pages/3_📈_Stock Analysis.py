@@ -1,13 +1,12 @@
 import streamlit as st
 import yfinance as yf
 
-st.header("My Fav SC Companies")
+st.title("An Analysis into [TBC]")
 st.caption("_by :blue[Ananya Salian]_")
 
-st.caption("This tab is currently in progress. Still currently choosing between an API-run and static page!")
-st.caption("However, for the time-being, I will be making this static, and updating\
-           info as I go, to personally stay on track of the performance of these stocks.")
-st.caption("_Expected to be up & running: **4th July, 2024**_")
+st.caption("This tab is currently in progress. Come take a look on the 10th of July!")
+
+st.caption("_Expected to be up & running: **10th July, 2024**_")
 t = yf.Ticker("TSM")
 n = yf.Ticker("NVDA")
 q = yf.Ticker("QCOM")
@@ -18,7 +17,7 @@ a = yf.Ticker("AMD")
 st.caption("The information currently provided consists of data obtained from the YFinance API, and though highly accurate, has a delay of up to 15 minutes from time of web-app reload. ")
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([f"{t.info['underlyingSymbol']}", f"{n.info['underlyingSymbol']}", f"{i.info['underlyingSymbol']}", f"{q.info['underlyingSymbol']}", f"{b.info['underlyingSymbol']}", f"{a.info['underlyingSymbol']}"])
 
-
+st.caption("Current shortlisted stocks:")
 
 with tab1:
     st.write(f"{t.info['underlyingSymbol']}")
