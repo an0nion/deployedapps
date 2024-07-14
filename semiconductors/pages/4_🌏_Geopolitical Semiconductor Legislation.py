@@ -4,7 +4,7 @@ st.title("Geopolitical Legislation in the Semiconductor Industry")
 
 st.caption("_by :blue[Ananya Salian]_")
 st.caption("Currently in progress!")
-st.caption("Expected to be up & running: **_10th July, 2024_**")
+# st.caption("Expected to be up & running: **_10th July, 2024_**")
 
 st.caption("Most legislation implemented aims to reduce supply chain disruptions\
            , reduce dependence on foreign suppliers, and to increase\
