@@ -4,9 +4,9 @@ import yfinance as yf
 st.title("An Analysis into [TBC]")
 st.caption("_by :blue[Ananya Salian]_")
 
-st.caption("This tab is currently in progress. Come take a look on the 10th of July!")
+st.caption("This tab is currently in progress. Come take a look later!")
 
-st.caption("_Expected to be up & running: **10th July, 2024**_")
+# st.caption("_Expected to be up & running: **10th July, 2024**_")
 t = yf.Ticker("TSM")
 n = yf.Ticker("NVDA")
 q = yf.Ticker("QCOM")
