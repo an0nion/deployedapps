@@ -9,4 +9,3 @@ scipy
 matplotlib
 folium
 streamlit_folium
-math
