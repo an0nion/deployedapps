@@ -164,7 +164,7 @@ with tab2:
     plt.ylabel("Stock Price $(S_t)$")
     plt.title(
         f"Realisations of Geometric Brownian Motion\n"
-        f"$dS_t = \\mu S_t df + \\sigma S-t dW_t$\n"
+        f"$dS_t = \\mu S_t dt + \\sigma S_t dW_t$\n"
         f"$S_0 = {S0}, \\mu = {mu}, \\sigma = {vol}$"
     )
     st.pyplot(plt)
