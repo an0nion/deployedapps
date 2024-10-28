@@ -74,5 +74,5 @@ st.caption('As of the 6th of May, 2024, \
            to determine the accuracy of the FBProphet.')
 
 st.caption('Last updated: 09/06/2024')
-st.caption('Created: 06/05/2024')
+st.caption('Created: 06/01/2024')
 
