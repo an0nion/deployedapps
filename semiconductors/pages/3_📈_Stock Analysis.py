@@ -6,7 +6,9 @@ st.caption("_by :blue[Ananya Salian]_")
 
 st.caption("This tab is currently in progress. Come take a look later!")
 
-"""st.caption("_Expected to be up & running: **10th July, 2024**_")
+
+"""
+st.caption("_Expected to be up & running: **10th July, 2024**_")
 t = yf.Ticker("TSM")
 n = yf.Ticker("NVDA")
 q = yf.Ticker("QCOM")
@@ -57,4 +59,5 @@ with tab6:
     st.write(f"{a.info['underlyingSymbol']}")
     st.caption(f"{a.info['longName']}")
     st.write(f"Current Share Price: {a.info['currentPrice']}")
-    st.write(f"Trailing P/E Ratio: {a.info['trailingPE']}")"""
+    st.write(f"Trailing P/E Ratio: {a.info['trailingPE']}")
+    """
