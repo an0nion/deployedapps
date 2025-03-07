@@ -9,7 +9,7 @@ TODAY = date.today().strftime("%Y-%m-%d")
 st.title("Stock Prediction Web App")
 st.caption('_by :blue[Ananya Salian]_')
 
-st.caption("**Due to changes in Yahoo Finance's pricing model, as of September 6th, 2024, web-scraping of historical data is no longer permitted. As such, the following data can no longer be obtained without the use of an API, or another model. This personal project is no longer interactive,  but serves as a personal user interface guide for my stock prediction projects going forward**")
+st.caption("**Due to changes in Yahoo Finance's pricing model, as of September 6th, 2024, web-scraping of historical data is no longer permitted. As such, the following data can no longer be obtained without the use of an API, or another data-provider. This personal project is no longer interactive,  but serves as a personal user interface guide for my stock prediction projects going forward**")
 
 st.caption("-------")
 
