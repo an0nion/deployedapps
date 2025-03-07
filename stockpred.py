@@ -48,34 +48,6 @@ def plot_raw_data():
     fig.layout.update(title_text="Time Series Data", xaxis_rangeslider_visible=True)
     st.plotly_chart(fig)
 
-plot_raw_data()
-
-# forecasting time!! using fb prophet
-df_train = data[['Date', 'Close']]
-df_train = df_train.rename(columns={"Date":"ds", "Close": "y"})
-
-m = Prophet()
-m.fit(df_train)
-future = m.make_future_dataframe(periods=period)
-forecast = m.predict(future)
-
-st.subheader('Forecast data')
-st.write(forecast.tail())
-
-st.subheader('Forecast Graph')
-fig1 = plot_plotly(m, forecast)
-st.plotly_chart(fig1)
-
-st.subheader('Forecast Components')
-fig2 = m.plot_components(forecast)
-st.write(fig2)
-
-
-st.caption('As of the 6th of May, 2024, \
-           this web app is yet to be finished. I aim \
-           to create a few tables and graphs that can\
-           forecast stocks following a certain point in the past, and compare it with its real trends\
-           to determine the accuracy of the FBProphet.')
 
 st.caption('Last updated: 09/06/2024')
 st.caption('Created: 06/01/2024')
