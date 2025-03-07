@@ -12,7 +12,7 @@ st.caption("Most legislation implemented aims to reduce supply chain disruptions
 st.write("_**Taiwan**_")
 st.write("""
            _Industrial Innovation Act_:  Chipmakers will be able to file for tax credits of 5% of their annual costs for purchasing equipment for advanced nodes (usually the costliest part of chip manufacturing) and a 25% tax bread on R&D expenses
-            - Taiwanese Ministery of Economic Affairs states that this will encourage higher domestic investment in homegrown tech businessses like TSMC, MediaTek, GlobalWafers, UMC, Phison,  especially for R&D
+            - Taiwanese Ministry of Economic Affairs states that this will encourage higher domestic investment in homegrown tech businesses like TSMC, MediaTek, GlobalWafers, UMC, Phison,  especially for R&D
             - Aims to maintain Taiwan's competitive edge in the semiconductor industry, currently holding 68% of the global semiconductor market, with TSMC alone with a market share of 53%.
             \n\n
            """)
@@ -21,7 +21,7 @@ st.write("""
 st.write("_**US:**_")
 st.write("""
          _CHIPS Act_:  Allocating $280B to the US for R&D and manufacturing support to reduce reliance on foreign manufacturers.
-        - Chip EQUIP Act (Not Yet Passed): Seeks to ban semiconductor manufacturers funded under the CHIPS Act from using specialized manufacturing equipment sourced from a 'foreign entity of concern' to 'stop China and other foreign entities of concern from compromising our microchip manufacturing facilities,' and strengthen national security.
+        - Chip EQUIP Act (Pending): Seeks to ban semiconductor manufacturers funded under the CHIPS Act from using specialized manufacturing equipment sourced from a 'foreign entity of concern' to 'stop China and other foreign entities of concern from compromising our microchip manufacturing facilities,' and strengthen national security.
         - Increased profitability for major beneficiaries of the subsidies and tax incentives (likely US firms like AMD and Intel).
         - Reduced dependence on foreign suppliers.
         - Likely to increase trade tensions with China due to limiting their profitability as a result of this Act.
