@@ -67,7 +67,7 @@ with tab1:
 
         inmoney = d1 * 100
         exerc = d2 * 100
-        st.write(f"The risk-adjusted probability of receiving your aseet at the expiration, given the option expires 'in the money' is: {inmoney:.3}%")
+        st.write(f"The risk-adjusted probability of receiving your asset at the expiration, given the option expires 'in the money' is: {inmoney:.3}%")
         st.write(f"The risk-adjusted probability that the option will be exercised is: {exerc:.3}%")
         st.write(f"The price of your call option is: ${C:.3}")
         st.write(f"The price of your put option is: ${P:.3}")
