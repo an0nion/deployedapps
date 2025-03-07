@@ -3,7 +3,7 @@ pandas == 2.0.1
 plotly
 streamlit
 scikit-learn
-yfinance==0.2.44
+yfinance
 datetime
 prophet
 scipy
