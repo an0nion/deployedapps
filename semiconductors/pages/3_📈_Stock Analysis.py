@@ -1,7 +1,7 @@
 import streamlit as st
 import yfinance as yf
 
-st.title("An Analysis into [TBC]")
+st.title("An Analysis into TSMC")
 st.caption("_by :blue[Ananya Salian]_")
 
 st.caption("This tab is currently in progress. Come take a look later!")
