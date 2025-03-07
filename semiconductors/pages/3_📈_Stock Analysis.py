@@ -4,7 +4,7 @@ import yfinance as yf
 st.title("An Analysis into TSMC")
 st.caption("_by :blue[Ananya Salian]_")
 
-st.caption("This tab is currently in progress. Come take a look later!")
+st.caption("Due to changes in Yahoo Finance's historical trading data webscraping policies, this tab is currently on hold. Come take a look later!")
 
 
 
