@@ -1,3 +1,5 @@
  Deployed Apps: Hosted on Streamlit
- Website: https://ananyadsal.webflow.io/
+ 
+ Website: https://www.ananyasalian.com/
+ 
  Linkedin: https://www.linkedin.com/in/ananyasalian/
